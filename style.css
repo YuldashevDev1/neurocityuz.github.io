@@ -1,0 +1,86 @@
+body {
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 40px 0; /* Bu qatorni o‘zgartirdik: tepaga va pastga 40px bo‘sh joy */
+}
+
+
+header {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ffc400;
+  margin-bottom: 50px; /* Qo‘shildi */
+}
+
+header h1 {
+  font-size: 2em;
+  color: #ffc400;
+  margin: 0;
+}
+
+button {
+  background-color: #ffc400; /* Sariq rang */
+  color: black;              /* Matn rangi */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e6b800; /* Hover effekti */
+}  
+
+header h1 span {
+  color: white;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #ffc400;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.container {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #000;
+}
+
+.details h2, .details h3 {
+  color: #ffc400;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid #333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 70px; /* Qo‘shildi */
+}
